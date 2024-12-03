@@ -146,5 +146,5 @@ Note that running each program will require you to again configure the runtime m
 Explore the `src/com/jenkov/javafx` folder in this repo for examples of what you can do with JavaFX, sourced from [this repository](https://github.com/jjenkov/javafx-examples). 
 
 ### JavaFX Ensemble Viewer
-[JavaFX Ensemble Viewer](https://www.jdeploy.com/~jdeploy-demo-javafx-ensemble) is a gallery of working examples that do not require you to compile and build individually.
+[JavaFX Ensemble Viewer](https://www.jdeploy.com/~jdeploy-demo-javafx-ensemble) is a gallery of working examples that do not require you to compile and build individually. Click [here](https://www.jdeploy.com/~jdeploy-demo-javafx-ensemble) to download the installer for your operating system. Check out the interactive demo of all the things you can do with JavaFX.
 <br><br>
