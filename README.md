@@ -32,7 +32,7 @@ Typically, Windows machines will have `x64` architecture. macOS machines with an
 ## 3. Install JavaFX Libraries
 Open the zip file you downloaded above. You should have a folder with a name similar to `javafx-sdk-23.0.1`. 
 
-Place this folder where you keep the rest of your local repo folders. You
+Place this folder where you keep the rest of your local repo folders. 
 
 <br><br>
 
@@ -65,15 +65,40 @@ Though the build libraries have now been located, your `HelloWorld.java` will st
 
 First, we need to get the path to the JavaFX library folder.
 
-### Get the path to the JavaFX library folder (macOS)
+<br>
+
+### 6a. Get the path to the JavaFX library folder (macOS)
 From **Step 3** above, get the path to the `lib/` folder found in your JavaFX download. Right-click the folder while holding the Option key to **copy the folder path**:
 
 ![screenshot](images/path_mac.png)
 
-### Get the path to the JavaFX library folder (Windows)
+Your macOS path should look something like:
+
+```
+/Users/davecheng/Documents/javafx-sdk-23.0.1/lib
+```
+
+<br>
+
+### 6b. Get the path to the JavaFX library folder (Windows)
 From **Step 3** above, get the path to the `lib/` folder found in your JavaFX download. Right-click the folder while holding the Option key to **copy the folder path**:
 
 ![screenshot](images/path_windows.jpg)
+
+Your Windows path should look something like:
+
+```
+C:\Users\davecheng\My Documents\javafx-sdk-23.0.1\lib
+```
+
+For use in Visual Studio Code, you will need to rewrite this. Replace the Windows-only backslash `\` characters with the UNIX-compliant forward-slash `/`, like this:
+
+```
+C:/Users/davecheng/My Documents/javafx-sdk-23.0.1/lib
+```
+
+
+<br>
 
 ### Configure runtime modules
 With the code editor open to `HellowWorld.java`, go to the menu bar and click on `Run` > `Add Configuration...`

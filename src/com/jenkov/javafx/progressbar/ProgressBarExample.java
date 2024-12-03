@@ -17,7 +17,7 @@ public class ProgressBarExample extends Application {
 
         ProgressBar progressBar = new ProgressBar(0);
 
-        progressBar.setProgress(0.5);
+        progressBar.setProgress(0.9);
 
         VBox vBox = new VBox(progressBar);
         Scene scene = new Scene(vBox, 960, 600);
