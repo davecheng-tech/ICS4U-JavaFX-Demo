@@ -147,4 +147,7 @@ Explore the `src/com/jenkov/javafx` folder in this repo for examples of what you
 
 ### JavaFX Ensemble Viewer
 [JavaFX Ensemble Viewer](https://www.jdeploy.com/~jdeploy-demo-javafx-ensemble) is a gallery of working examples that do not require you to compile and build individually. Click [here](https://www.jdeploy.com/~jdeploy-demo-javafx-ensemble) to download the installer for your operating system. Check out the interactive demo of all the things you can do with JavaFX.
+
+![screenshot](images/ensemble.png)
+
 <br><br>
