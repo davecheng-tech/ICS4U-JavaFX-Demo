@@ -105,7 +105,7 @@ With the code editor open to `HellowWorld.java`, go to the menu bar and click on
 
 ![screenshot](images/configuration.png)
 
-You should now be looking at a configuration file `launch.json`. Find the section referencing `HellowWorld.java` and add to this section. 
+You should now be looking at a configuration file `launch.json`. Find the section referencing `Current File` and add to this section. 
 
 **NOTE: Append a `,` comma after the last parameter before pasting the parameter below.**
 
@@ -123,22 +123,34 @@ Note that if your path has a space in it, you will need to **enclose the path** 
 
 The configured path should look like this:
 
-![screenshot](images/module.png)
+![screenshot](images/currentfile.png)
 
 Save and close the `launch.json` file.
 
 <br><br>
 
 ## 7. Run your JavaFX program
-Returning to `HelloWorld.java`, you should now be able to run the code:
+Returning to `HelloWorld.java`, you will need to use a different method to run your code that loads the modules you just configured.
+
+In Visual Studio Code, select the `Current File` configuration before running:
+
+![screenshot](images/run_and_debug.png)
+
+- Click on the **Run and Debug**"** icon in the left sidebar (or press `Ctrl+Shift+D` / `Cmd+Shift+D`)
+- At the top of the debug panel, you'll see a dropdown menu with all your configurations.
+- Select the `Current File` configuration you just set up.
+- Use the green play button next to the dropdown to run with that configuration. 
+- You can also use the `F5` keyboard shortcut to run.
+
+NOTE: If you the run button in the top-right corner of the code editor window, you will invoke the configuration in `launch.json` for this specific file, which we have not defined. It is possible to edit `launch.json` to add the configuration for each individual file as well.
+
+### "Hello, World!" in JavaFX
+
+Your program should pop up a new window like this:
 
 ![screenshot](images/helloworld.png)
 
 Clicking the button should output text to your console.
-
-Try running some other examples, including [`Login.java`](src/basic/Login.java) and [`BarChartApp.java`](src/charts/BarChartApp.java).
-
-Note that running each program will require you to again configure the runtime modules on first execution (see **Step 6** above). Edit the `launch.json` file accordingly.
 
 <br><br>
 
