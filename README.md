@@ -162,4 +162,13 @@ Explore the `src/com/jenkov/javafx` folder in this repo for examples of what you
 
 ![screenshot](images/ensemble.png)
 
-<br><br>
+### Learning from the Ensemble examples
+All of the examples in Ensemble have a **View Source** link to see the corresponding code and documentation.
+
+![screenshot](images/viewsource.png)
+
+If the source files are missing in the Ensemble Viewer, you can find them online in [Ensemble's repository](https://github.com/shannah/javafx-ensemble8) under the path [/src/main/java/ensemble/samples](https://github.com/shannah/javafx-ensemble8/tree/master/src/main/java/ensemble/samples) and finding the appropriate category/application. You can also search the repo directly for the sample source code filename, which you can get from the Ensemble Viewer:
+
+![screenshot](images/search.png)
+
+Documentation for these classes can also be found within the Ensemble viewer.
