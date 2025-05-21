@@ -32,7 +32,7 @@ Typically, Windows machines will have `x64` architecture. macOS machines with an
 <br><br>
 
 ## 3. Install JavaFX Libraries
-Open the zip file you downloaded above. You should have a folder with a name similar to `javafx-sdk-23.0.1`. 
+Unzip the zip file you downloaded above. You should have a folder with a name similar to `javafx-sdk-23.0.1`. 
 
 Place this folder where you keep the rest of your local repo folders. 
 
