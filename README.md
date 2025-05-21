@@ -23,7 +23,9 @@ Here, we have Java Release 23 installed. Note this version number.
 <br><br>
 
 ## 2. Download JavaFX
-Go to the JavaFX website and [download](https://gluonhq.com/products/javafx/) the appropriate installer package for your version of Java. Select the appropriate operating system (macOS, Windows, Linux, etc.) and the appropriate processor architecture. Download the JavaFX **SDK** package. If in doubt, download **JavaFX Release 21** with wide compatibility for JDK 17 and newer.
+Go to the JavaFX website and [download](https://gluonhq.com/products/javafx/) the appropriate installer package for your version of Java. Select the appropriate operating system (macOS, Windows, Linux, etc.) and the appropriate processor architecture. Download the JavaFX **SDK** package. 
+
+If in doubt, download **JavaFX Release 21** with wide compatibility for JDK 17 and newer.
 
 Typically, Windows machines will have `x64` architecture. macOS machines with an Intel processor will be `x64`, whereas Apple Silicon processors (e.g. M1, M2, etc.) will be `aarch64`.
 
